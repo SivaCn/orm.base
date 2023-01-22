@@ -38,7 +38,7 @@ setup(
     # For a list of valid classifiers, see
     # https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
-        'Development Status :: 1 - Beta',
+        'Development Status :: 3 - Alpha',
         "Operating System :: OS Independent",
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
