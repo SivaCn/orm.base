@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "orm.base"
 version = "1.0.1"
@@ -18,15 +22,12 @@ classifiers = [
 ]
 requires-python = ">=2.7"
 dependencies = [
-    "sqlalchemy>=1.2.19",
+    "toml",
+    "sqlalchemy",
 ]
 
 [project.urls]
 "Documentation" = "https://github.com/SivaCn/orm.base"
 "Source Code" = "https://github.com/SivaCn/orm.base"
 "Bug Tracker" = "https://github.com/SivaCn/orm.base/issues"
-
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
 
