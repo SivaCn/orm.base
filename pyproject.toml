@@ -12,7 +12,6 @@ maintainers = [{name = "Siva Cn", email = "cnsiva@protonmail.com"}]
 authors = [{name = "Siva Cn", email = "cnsiva@protonmail.com"}]
 classifiers = [
     'Development Status :: 3 - Alpha',
-    "Framework :: orm.base",
     "Environment :: Web Environment",
     "Operating System :: OS Independent",
     'Programming Language :: Python',
