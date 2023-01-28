@@ -1,0 +1,32 @@
+[project]
+name = "orm.base"
+version = "1.0.1"
+description = "A simple framework for wrapping any ORM."
+readme = "README.md"
+license = {text = "MIT-3-Clause"}
+maintainers = [{name = "Siva Cn", email = "cnsiva@protonmail.com"}]
+authors = [{name = "Siva Cn", email = "cnsiva@protonmail.com"}]
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    "Framework :: orm.base",
+    "Environment :: Web Environment",
+    "Operating System :: OS Independent",
+    'Programming Language :: Python',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Topic :: Software Development :: Libraries :: Application Frameworks',
+]
+requires-python = ">=2.7"
+dependencies = [
+    "sqlalchemy>=1.2.19",
+]
+
+[project.urls]
+"Documentation" = "https://github.com/SivaCn/orm.base"
+"Source Code" = "https://github.com/SivaCn/orm.base"
+"Bug Tracker" = "https://github.com/SivaCn/orm.base/issues"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
